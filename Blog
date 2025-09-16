@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos a mi Blog Disney</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="intro">
+        <h1>✨ Bienvenidos a mi Blog de Disney ✨</h1>
+        <p>Hola! Soy <strong>Milagros Fernandez Ortolani</strong>, tengo <strong>17 años</strong> y me encanta Disney 💖</p>
+        <a href="blog1.html" class="btn">Entrar al Blog</a>
+    </header>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Disney - Página 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="blog-header">
+        <h1>🌈 Mi Blog sobre Disney 🌈</h1>
+        <nav>
+            <a href="index.html">Volver a la intro</a>
+        </nav>
+    </header>
+
+    <main class="blog-content">
+        <article>
+            <h2>✨ Mi amor por Disney ✨</h2>
+            <p>
+                Desde chiquita, Disney es una parte muy importante de mi vida. 
+                Sus películas me ponen muy contenta.  
+                Me gustan mucho los valores que transmiten como la amistad, el amor y la esperanza. 💫
+            </p>
+        </article>
+
+        <article>
+            <h2>🎬 Mis películas favoritas 🎬</h2>
+            <ul>
+                <li>La Bella y la Bestia 🌹</li>
+                <li>Enredados ✨</li>
+                <li>El Rey León 🦁</li>
+                <li>Frozen ❄️</li>
+            </ul>
+        </article>
+    </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Disney - Página 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="blog-header">
+        <h1>🌟 Más Disney, más magia 🌟</h1>
+        <nav>
+            <a href="index.html">Volver a la intro</a> |
+            <a href="blog1.html">Página 1</a>
+        </nav>
+    </header>
+
+    <main class="blog-content">
+        <article>
+            <h2>🏰 Parques de Disney 🏰</h2>
+            <p>
+                Mi lugar favorito en el mundo es <strong>Disney World</strong> y sus parques.  
+                Imaginación, aventuras y diversión en cada rincón. Tengo recuerdos con mi familia en todos los lugares, en el castillo de Cenicienta,
+                en las montañas rusas y en los shows de la noche. ✨
+            </p>
+        </article>
+
+        <article>
+            <h2>🎶 La música de Disney 🎶</h2>
+            <p>
+                Las canciones de Disney son una parte fundmental. Todas ellas
+                me ponen feliz y me recuerdan que la magia siempre está presente.  
+                Para mí, Disney no es solo cine, es un mundo completo de emociones. 💖
+            </p>
+        </article>
+
+        <article>
+            <h2>⭐ Personajes que me gustan ⭐</h2>
+            <ul>
+                <li>Mulan 💪 por su valentía</li>
+                <li>Rapunzel 🌸 por su creatividad</li>
+                <li>Woody 🤠 por su amistad sincera</li>
+                <li>Olaf ☃️ por su ternura</li>
+            </ul>
+        </article>
+    </main>
+</body>
+</html>
+<nav>
+    <a href="index.html">Volver a la intro</a> |
+    <a href="blog2.html">Página 2</a>
+</nav>
+/* 🎨 Estilo divertido Disney */
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #ffeaa7, #fab1a0, #a29bfe);
+    color: #2d3436;
+}
+
+header.intro {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(to right, #fd79a8, #ffeaa7, #74b9ff);
+    color: white;
+    border-bottom: 5px solid #ffeaa7;
+}
+
+header.intro h1 {
+    font-size: 2.5em;
+}
+
+header.intro p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #ffeaa7;
+    color: #2d3436;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background: #fd79a8;
+    color: white;
+}
+
+.blog-header {
+    background: #74b9ff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.blog-header nav a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-header nav a:hover {
+    color: pink;
+}
+
+.blog-content {
+    padding: 30px;
+}
+
+.blog-content h2 {
+    color: #fd79a8;
+}
