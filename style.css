@@ -1,0 +1,65 @@
+/* 🎨 Estilo divertido Disney */
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #ffeaa7, #fab1a0, #a29bfe);
+    color: #2d3436;
+}
+
+header.intro {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(to right, #fd79a8, #ffeaa7, #74b9ff);
+    color: white;
+    border-bottom: 5px solid #ffeaa7;
+}
+
+header.intro h1 {
+    font-size: 2.5em;
+}
+
+header.intro p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #ffeaa7;
+    color: #2d3436;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background: #fd79a8;
+    color: white;
+}
+
+.blog-header {
+    background: #74b9ff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.blog-header nav a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-header nav a:hover {
+    color: pink;
+}
+
+.blog-content {
+    padding: 30px;
+}
+
+.blog-content h2 {
+    color: #fd79a8;
+}
